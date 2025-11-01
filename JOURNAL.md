@@ -15,3 +15,17 @@ I started by creating the frame from 2020 extrusion (as it's relatively cheap an
 ![001-frame](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzAxMiwicHVyIjoiYmxvYl9pZCJ9fQ==--afa9083215214e541de46bf5ea98e369b264e221/001-frame.png)
   
 
+## 11/1/2025 - Created initial carriage assembly.  
+
+I spent several hours researching and trying various things for the carriage assembly. I started with linear rails, but those are expensive (I didn't take a picture).
+
+Then I tried rods with linear bearings, but they looked bulky and difficult to mount, and I felt it would restrict the build plate size too much on the y-axis.
+![002-carriage](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzQ5MiwicHVyIjoiYmxvYl9pZCJ9fQ==--164057dfd2368980d9e390285e75f2821f742461/002-carriage.png)
+
+Eventually I decided I wanted to try using v-slot wheels because they're cheaper than the last two options. Unfortunately, the library I was using for hardware parts doesn't support any v-slot components, so I spent a while implementing those myself, from 2020 v-slot extrusion to eccentric M5 nuts and roller wheels. This is my result:
+![003-carriage](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzQ5NCwicHVyIjoiYmxvYl9pZCJ9fQ==--9c5c60281ad63d86f4d55f3a8120126cfdc99fcc/003-carriage.gif)
+![004-carriage](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzQ5NSwicHVyIjoiYmxvYl9pZCJ9fQ==--8c09ef3a3cb61ac4f499d65646af3461ddd42575/004-carriage.png)
+
+Next, I'll probably work on the belt assembly.
+  
+
